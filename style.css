@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.hero-bg {
+  background: linear-gradient(135deg,rgb(184, 151, 111), #dfe9f3);
+  background-size: cover;
+}
+
+.form-box {
+  background:rgb(46, 37, 1);
+  border-radius: 20px;
+  border: 1px solidrgba(250, 250, 250, 0.29);
+  color: #333;
+  min-height: 520px;
+  transition: all 0.3s ease;
+}
+
+.form-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.register-box {
+  background: linear-gradient(145deg, #fff9e6, #ffe6e6);
+}
+
+.login-box {
+  background: linear-gradient(145deg, #fdfaf5, #ffecec);
+}
+
+.form-control-lg {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #333;
+}
+
+.form-control-lg:focus {
+  border-color: #666;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.btn-lg {
+  border-radius: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-lg:hover {
+  background: #000;
+  transform: translateY(-2px);
+}
+
+.col-lg-5 {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+@media (max-width: 991px) {
+  .form-box {
+    margin-bottom: 2rem;
+    min-height: auto;
+  }
+}
